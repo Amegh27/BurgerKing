@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'flame-bold' ;
+    src: url(fonts/FlameBold.otf);
+}
+@font-face {
+    font-family: 'flame-regular';
+    src: url(fonts/FlameRegular.otf);
+}
+@font-face {
+    font-family: 'flame-regularSans';
+    src: url(fonts/FlameSans.otf);
+}
+body{
+    margin: 0;
+    border: 0;
+    background-color: rgb(248, 241, 231);
+    
+}
+.navbar{
+    background-color:  rgb(248, 241, 231);
+    border-bottom: 1px solid  wheat;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.bar-btn{
+    padding-left: 136px;
+    cursor: pointer;
+}
+.logo a{
+    font-size: 28px;
+    font-family:'flame-bold';
+    color: rgb(80, 35, 20);
+    font-weight:600 ;
+    text-decoration: none;
+    padding-left: 360px;
+}
+.user-btn{
+    color: rgb(97, 4, 4);
+    margin-left: 1px;
+    cursor: pointer;
+}
+.view-btn{
+    font-family:'flame-bold';
+    width: 125px;
+    height: 25px;
+    background-color: rgb(214, 35, 0);
+    border-radius: 50px;
+    border: 0;
+    margin-bottom: 10px;
+    color: white;
+    margin-right: 190px;
+    cursor: pointer;
+}
+.view-btn:hover{
+    background-color:rgb(200, 3, 3);
+}
+.main-page{
+    width: 100%;
+    height: 473px;
+    display: flex;
+    float: left;
+    padding-top: 100px;
+    
+    
+}
+.main{
+   margin-left: 100px;
+    font-size: 25px;
+    width: 40%;
+    align-items: center;
+    
+    
+}
+.h1{
+color: rgb(80, 35, 20);
+font-size: 60px;
+font-family:'flame-bold';
+}
+.main2 img {
+    width: 788px;
+    border-radius: 18%;
+    padding-right: 176px; 
+    padding-left: 161px  
+}
+.order-btn{
+    width: 294px;
+    height: 45px;
+    background-color: rgb(214, 35, 0);
+    border-radius: 50px;
+    border: 0;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+}
+.order-btn:hover{
+    background-color:rgb(200, 3, 3);
+}
+.delivery-btn{
+    width: 294px;
+    height: 45px;
+    background-color :white;
+    border: 1;
+    border-radius: 50px;
+    color: rgb(97, 4, 4);
+    cursor: pointer;
+}
+.delivery-btn:hover{
+    background-color: rgb(213, 207, 201);
+}
+.h2{
+    color: rgb(97, 4, 4);
+    font-size: 45px;  
+    float: right;
+    margin-right: 600px;
+    margin-top: 125px;
+}
+.main4{
+    display: flex;
+    
+    padding-left: 130px;
+    padding-right: 130px;
+    
+}
+.content1{
+    background-color: white;
+    padding-left: 0;
+}
+.content2{
+    background-color: white;
+    padding-left: 123px;
+    border-radius: 5%;
+}
+.h4{
+    font-family:  'flame-regular';
+    color: rgb(80, 35, 20);
+}
+.p4{
+    font-family:  'flame-regular';
+    color: rgb(80, 35, 20);
+}
+.redeem-btn{
+    width: 125px;
+    height: 32px;
+    background-color:white;
+    border-radius: 50px;
+    border: 1;
+    margin-bottom: 10px;
+    color:  rgb(97, 4, 4);
+    margin-left: 379px;
+    cursor: pointer;
+}
+.redeem-btn:hover{
+    background-color: rgb(213, 207, 201);
+}
+.visit-btn{
+    width: 125px;
+    height: 32px;
+    background-color:white;
+    border-radius: 50px;
+    border: 1;
+    margin-bottom: 10px;
+    color:  rgb(97, 4, 4);
+    margin-left: 379px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.visit-btn:hover{
+    background-color: rgb(213, 207, 201);
+}
+.scan{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.04);
+    margin-top: 127px;
+    width: 100%;
+}
+.scan img{
+    padding-left: 230px;
+    float: left;
+    width: 445px;
+    margin-bottom: 1;
+}
+.scan-h1{
+    display: flex;
+    font-family: 'flame-bold';
+    color: rgb(80, 35, 20) ;
+    padding-left: 116px;
+    font-size: 51px;
+}
+.app-img{
+   height: 50px;
+   width: 140px !important;
+   cursor: pointer;
+}
+.p5{
+   font-family: 'flame-regularSans';
+   font-size: 12px;
+   color: rgb(80, 35, 20);
+   margin-top: 68px;  
+}
+.footer-div{
+    background-color:rgb(80, 35, 20) ;
+    color: white;
+    font-family:'flame-regularSans' ;
+    font-size: 10px;
+    padding-left: 483px;
+    height: 52px;
+    display: flex;
+    margin-bottom: 74px;
+}
+.p6{
+    margin-top: 18px;
+    color: white;
+    font-family:'flame-regularSans' ;
+}
+.footer-img{
+    padding-left: 265px;
+    cursor: pointer;
+}
+.footer-nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
